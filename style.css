@@ -1,0 +1,131 @@
+body{padding: 0;margin: 0;height: 100%;}
+#page{width: 100%;margin: 0 ;}
+#header{height: 375px;
+        width: 100%; 
+		margin-bottom:0;
+		background:url("pictures/header.jpg") no-repeat;
+		background-position: 50%55%;
+		text-align: center;
+		line-height:40px;
+		background-attachment: fixed; }
+#header h1 {
+	 margin:0;
+     font-family:  calibri;
+	 font-size: 70px;
+	 color: white;
+	 font-weight: 300;
+	 letter-spacing: 28px;
+	 line-height: 55px;
+}
+#header  li {
+    list-style: none;
+    display: inline;
+    padding: 40px 30px 0px 0px;
+}
+#header a {
+    padding:12px;    /*Поля вокруг надписей основного меню*/
+    text-decoration: none;
+    color: white;  	/* цвет текста*/
+	font-family:  calibri;
+	font-size: 30px;
+}
+#header a:hover{
+	background: rgba(255,255,255,0.9);
+    text-decoration: none;
+    padding:12px;    /*Поля вокруг надписей основного меню*/
+	border-radius: 5px 5px 0px 0px; /* округленные углы */
+    text-decoration: none;
+    color: darkblue ;    /* цвет текста*/
+}
+
+#header a:focus {
+	background: rgba(255,255,255,0.9);
+    text-decoration: none;
+    padding:12px;    /*Поля вокруг надписей основного меню*/
+	border-radius: 5px 5px 0px 0px;
+    text-decoration: none;
+    color: darkblue ;    /* цвет текста*/
+}
+
+#main{min-height: 600px;
+         margin:0;
+         padding-top: 20px;
+		 width: 100%;
+		 background-color: white;
+		 float: none;
+		 text-align: center;
+		 }
+	
+#about{min-height: 600px;
+         margin:0;
+         padding-top: 20px;
+		 width: 100%;
+		 background-color: white;
+		 float: none;
+		 text-align: center;
+		 }
+		 
+#calculator{min-height: 600px;
+         margin:0;
+         padding-top: 20px;
+		 width: 100%;
+		 background-color: white;
+		 float: none;
+		 text-align: center;			 
+		 }
+		 
+#timetable{min-height: 600px;
+         margin:0;
+         padding-top: 10px;
+		 width: 100%;
+		 background-color: white;
+		 float: none;
+		 text-align: center;			 
+		 }
+		 
+#timetable2{min-height: 600px;
+         margin:0;
+         padding-top: 50px;
+		 width: 100%;
+		 background-color: white;
+		 float: none;
+		 text-align: center;			 
+		 }
+		 
+#timetable table {
+	    border-spacing: 0;
+		border: 1px solid white;	
+		width: 70%;
+}
+
+#timetable td {
+		border-bottom: 1px solid darkblue;		
+		border-right: 1px solid darkblue;	
+}
+
+#timetable table td:last-child {
+		border-bottom: 1px solid darkblue;	
+		border-right: 1px solid white;	
+}
+
+#special_line {
+		all: unset; 
+		border:none;
+}
+ 
+#calculator input[type="text"] {
+   border: 1px solid #555555;
+   border-radius: 5px;
+   text-align: right;
+}
+#calculator input[type="textfield"] {
+   border: 1px solid #555555;
+   border-radius: 5px;
+}
+
+  
+#footer{padding-top: 20px;
+        height: 100px;
+		width: 100%;
+		background-color: #555555;}
+.clear{float: none;clear: both;}
